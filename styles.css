@@ -1,20 +1,41 @@
 body{
-    margin: 2px;
+    margin: 0px;
 }
 section{
     height:500px;
-    background: yellow;
+    background: white;
     border: solid black 1px;
 
 }
 
 .hero{
-    background-color: blue;
+    background-color: rgb(2, 2, 22);
     height: 100vh;
+    color: white;
+    font-size: 40px;
 
 }
 
 footer{
     height: 500px;
     background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+li{
+    /* width: 200px; */
+    text-decoration: none;
 }
